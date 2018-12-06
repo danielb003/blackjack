@@ -35,7 +35,6 @@ public class UpdateSummary implements ActionListener {
 		// loop through until player matches the combo box player
 		for (Player updatedPlayer : allPlayers) {
 			if (updatedPlayer.getPlayerName() == toolbar.getPlayerSelect().toString()) {
-				System.out.println(updatedPlayer.getPlayerId());
 				// update the summary panel
 				summary.setPlayerId(updatedPlayer);
 				summary.setPlayerName(updatedPlayer);

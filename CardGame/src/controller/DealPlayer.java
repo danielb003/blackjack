@@ -69,8 +69,6 @@ public class DealPlayer extends Thread implements ActionListener {
 								player.setResult(0);
 							}
 							
-							// cardPanel.setHouseActiveLabel(false);
-							
 						} else if(playersLeft > 0) {
 							gameEngine.dealPlayer(currentPlayer, 1);
 							currentPlayer.setPlayerDealt(true);
